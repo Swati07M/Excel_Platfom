@@ -28,19 +28,27 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application desig
 
 🔧 Backend Setup
 cd backend
+
 npm install
+
 Create a .env file in the backend/ directory:
 
 env
 PORT=5000
+
 MONGO_URI=your_mongo_connection_string
+
 Run backend:
 npm start/npm run dev
+
 💻 Frontend Setup
 
 cd frontend
+
 npm install
+
 npm start/npm run dev
+
 The React app will run at:
 http://localhost:5173
 
